@@ -13,6 +13,10 @@ Para ejecutar la aplicación se debe ejecutar cualquiera de los 4 archivos de Ma
 
 > **Nota**: Para realizar las pruebas en los archivos individuales hay que descomentar la última línea del archivo donde cierra la conexión con la base de datos.
 
+### Base de datos
+Para la base de datos se utilizó PostgreSQL, instalado en la computadora de los estudiantes. En esta ocasión no se utilizó Docker para la base de datos. El nombre de la base de datos es `estudiantes_db` y el archivo para modificar esto se encuentra en el archivo `persistence.xml`.
+
+
 ## Elementos:
 - **src**: este archivo contiene el código fuente de la aplicación
     - **resources**: Dentro de esta carpeta se encuentra el archivo de configuración de Hibernate
@@ -23,8 +27,5 @@ Para ejecutar la aplicación se debe ejecutar cualquiera de los 4 archivos de Ma
             - **JPARepository**: Esta carpeta contiene la implementacion especifica para la realizacion de las consultas utilizando JPA Hibernate 
 - **pom.xml**: archivo de configuración de Maven
 - **README.md**: archivo de documentación
-
-### Base de datos
-Para la base de datos se utilizó PostgreSQL, instalado en la computadora de los estudiantes. En esta ocasión no se utilizó Docker para la base de datos. El nombre de la base de datos es `estudiantes_db` y el archivo para modificar esto se encuentra en el archivo `persistence.xml`.
 
 > **Nota**: Este Proyecto esta subido a GitHub en el siguiente enlace: [https://github.com/CowsmonDev/Software-System-Design-TPE]
