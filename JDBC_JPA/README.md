@@ -27,5 +27,6 @@ Para la base de datos se utilizó PostgreSQL, instalado en la computadora de los
             - **JPARepository**: Esta carpeta contiene la implementacion especifica para la realizacion de las consultas utilizando JPA Hibernate 
 - **pom.xml**: archivo de configuración de Maven
 - **README.md**: archivo de documentación
+- **Diagrama de Clases** y **Diagrama de Entidad Relación**: Estos archivos se encuentran en el directorio raiz y son los diagramas de clases y entidad relación de la aplicación
 
 > **Nota**: Este Proyecto esta subido a GitHub en el siguiente enlace: [https://github.com/CowsmonDev/Software-System-Design-TPE]
