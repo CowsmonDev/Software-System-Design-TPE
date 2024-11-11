@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "documentNumber": "DNI12345678",
+      "numeroLibreta": "LIB1234",
+      "name": "Juan",
+      "lastname": "Pérez",
+      "age": 22,
+      "gender": "M",
+      "residenceCity": "Buenos Aires"
+    },
+    {
+      "documentNumber": "DNI87654321",
+      "numeroLibreta": "LIB5678",
+      "name": "Ana",
+      "lastname": "Gómez",
+      "age": 20,
+      "gender": "F",
+      "residenceCity": "Córdoba"
+    },
+    {
+      "documentNumber": "DNI23456789",
+      "numeroLibreta": "LIB9101",
+      "name": "Carlos",
+      "lastname": "Lopez",
+      "age": 23,
+      "gender": "M",
+      "residenceCity": "Rosario"
+    },
+    {
+      "documentNumber": "DNI34567890",
+      "numeroLibreta": "LIB1121",
+      "name": "María",
+      "lastname": "Martínez",
+      "age": 21,
+      "gender": "F",
+      "residenceCity": "Mendoza"
+    },
+    {
+      "documentNumber": "DNI45678901",
+      "numeroLibreta": "LIB3141",
+      "name": "Lucía",
+      "lastname": "Ramírez",
+      "age": 19,
+      "gender": "F",
+      "residenceCity": "La Plata"
+    },
+    {
+      "documentNumber": "DNI56789012",
+      "numeroLibreta": "LIB5161",
+      "name": "Gabriel",
+      "lastname": "Fernández",
+      "age": 24,
+      "gender": "M",
+      "residenceCity": "San Miguel"
+    },
+    {
+      "documentNumber": "DNI67890123",
+      "numeroLibreta": "LIB7181",
+      "name": "Sofía",
+      "lastname": "Alvarez",
+      "age": 22,
+      "gender": "F",
+      "residenceCity": "Mar del Plata"
+    },
+    {
+      "documentNumber": "DNI78901234",
+      "numeroLibreta": "LIB9202",
+      "name": "Matías",
+      "lastname": "Torres",
+      "age": 25,
+      "gender": "M",
+      "residenceCity": "Salta"
+    },
+    {
+      "documentNumber": "DNI89012345",
+      "numeroLibreta": "LIB1233",
+      "name": "Valentina",
+      "lastname": "García",
+      "age": 21,
+      "gender": "F",
+      "residenceCity": "Tucumán"
+    },
+    {
+      "documentNumber": "DNI90123456",
+      "numeroLibreta": "LIB4567",
+      "name": "Nicolás",
+      "lastname": "Sánchez",
+      "age": 23,
+      "gender": "M",
+      "residenceCity": "Santa Fe"
+    }
+  ]
+}
