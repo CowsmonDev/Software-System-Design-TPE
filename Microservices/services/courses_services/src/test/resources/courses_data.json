@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Matemáticas"
+    },
+    {
+      "id": 2,
+      "name": "Historia"
+    },
+    {
+      "id": 3,
+      "name": "Química"
+    },
+    {
+      "id": 4,
+      "name": "Física"
+    },
+    {
+      "id": 5,
+      "name": "Literatura"
+    }
+  ]
+}
