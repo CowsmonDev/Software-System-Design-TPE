@@ -1,9 +1,8 @@
 spring:
   application:
-    name: courses_service
-  # postgresql
+    name: courses_students_service
   datasource:
-    url: jdbc:postgresql://localhost:5432/courses_db
+    url: jdbc:postgresql://localhost:5432/courses_students_db
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
@@ -11,4 +10,12 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate.ddl-auto: update
 server:
-  port: 8082
+  port: 8083
+
+courses-service:
+  url: http://localhost:8082
+
+students-service:
+  url: http://localhost:8081
+
+

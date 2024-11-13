@@ -24,7 +24,7 @@ public class StudentController {
     }
 
     @PostMapping
-    public ResponseEntity<String> addStudent(@RequestBody @Valid StudentRequest studentRequest) {
+    public ResponseEntity<StudentResponse> addStudent(@RequestBody @Valid StudentRequest studentRequest) {
         return ResponseEntity.ok(studentService.addStudent(studentRequest));
     }
 

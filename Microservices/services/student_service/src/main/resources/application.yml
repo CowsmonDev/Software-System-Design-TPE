@@ -3,9 +3,9 @@ spring:
     name: student_service
   # postgresql
   datasource:
-    url: jdbc:postgresql://localhost:5433/student_db
+    url: jdbc:postgresql://localhost:5432/student_db
     username: postgres
-    password: postgres
+    password: admin
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect

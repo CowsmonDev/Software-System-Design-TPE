@@ -34,9 +34,9 @@ public class StudentService {
                 .collect(Collectors.toList());
     }
 
-    public String addStudent(StudentRequest studentRequest) {
-        return studentRepository.save(studentMapper.toStudent(studentRequest))
-                .getDocumentNumber();
+    public StudentResponse addStudent(StudentRequest studentRequest) {
+        return studentMapper.toStudentResponse(studentRepository.save(studentMapper.toStudent(studentRequest)));
+
     }
 
     public StudentResponse getStudent(String documentNumber) {
