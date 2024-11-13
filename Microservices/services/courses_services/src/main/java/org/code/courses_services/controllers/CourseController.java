@@ -47,6 +47,8 @@ public class CourseController {
 
     @GetMapping("/exists/{id}")
     public ResponseEntity<Boolean> existsCourse(@PathVariable Integer id) {
+        System.out.println("ENTRO A EXIST");
+        System.out.println(id);
         return ResponseEntity.ok(courseService.existsCourse(id));
     }
 

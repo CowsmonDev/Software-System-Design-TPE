@@ -19,4 +19,13 @@ public class CoursesStudentWithInfoResponse extends CoursesStudentsResponse {
         this.student = student;
     }
 
+    @Override
+    public String toString() {
+        return "CoursesStudentWithInfoResponse{\n" +
+                " yearEntry='" + getYearEntry() + '\'' +
+                ", isGraduated='" + getIsGraduated() + '\'' +
+                "\n course=" + course +
+                "\n student=" + student +
+                "\n}";
+    }
 }

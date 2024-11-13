@@ -11,9 +11,8 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 
 import java.util.List;
 
-@SpringBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class CoursesServicesApplicationTests {
-
 
     private WebTestClient webTestClient;
 

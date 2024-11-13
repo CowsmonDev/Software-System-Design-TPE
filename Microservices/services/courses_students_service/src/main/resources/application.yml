@@ -2,9 +2,9 @@ spring:
   application:
     name: courses_students_service
   datasource:
-    url: jdbc:postgresql://localhost:5432/courses_students_db
+    url: jdbc:postgresql://localhost:5436/courses_students_db
     username: postgres
-    password: admin
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect

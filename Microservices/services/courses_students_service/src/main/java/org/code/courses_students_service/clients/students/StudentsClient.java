@@ -16,7 +16,7 @@ public interface StudentsClient {
     @GetMapping("/students/{documentNumber}")
     Optional<StudentsReponse> getStudentById(@PathVariable("documentNumber") String documentNumber);
 
-    @GetMapping("/students/exist/{documentNumber}")
+    @GetMapping("/students/exists/{documentNumber}")
     Boolean existStudent(@PathVariable("documentNumber") String documentNumber);
 
 }

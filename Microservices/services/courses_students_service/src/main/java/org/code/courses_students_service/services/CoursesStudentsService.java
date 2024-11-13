@@ -51,9 +51,8 @@ public class CoursesStudentsService {
         if(!coursesClient.existsCourse(Integer.valueOf(coursesStudentsRequest.courseId())))
             throw new RuntimeException("Course not found");
 
-        if(! studentsClient.existStudent(coursesStudentsRequest.studentDocumentNumber()))
+        if(!studentsClient.existStudent(coursesStudentsRequest.studentDocumentNumber()))
             throw new RuntimeException("Student not found");
-
 
         return coursesStudentsMapper.toCoursesStudentsResponse(
                 coursesStudentsRepository.save(

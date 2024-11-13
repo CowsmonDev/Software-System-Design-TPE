@@ -14,4 +14,13 @@ public class CoursesStudentsResponse {
     private String yearEntry;
     private String isGraduated;
 
+    @Override
+    public String toString() {
+        return "CoursesStudentsResponse {" +
+                "studentDocumentNumber='" + studentDocumentNumber + '\'' +
+                ", courseId='" + courseId + '\'' +
+                ", yearEntry='" + yearEntry + '\'' +
+                ", isGraduated='" + isGraduated + '\'' +
+                '}';
+    }
 }
