@@ -2,7 +2,7 @@
 
 ## Context and Problem Statement
 
-Sequiere crear Dos microservicios:
+Se quiere crear dos microservicios:
 
 Clientes: Permite a acceder los datos de personales de los
 clientes
