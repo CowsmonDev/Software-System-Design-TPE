@@ -1,4 +1,4 @@
-# Decisiones de arquitectura de Clientes y Pagos
+# Implementación de microservicios para Clientes y Pagos
 
 ## Context and Problem Statement
 
@@ -8,9 +8,10 @@ Clientes: Permite a acceder los datos de personales de los
 clientes
 
 
-Pagos: Se apoya en una pasarela de pago externa que
-proporciona la empresa MercadoLibre para garantizar la seguridad de los pagos y la
+Pagos: Se apoya en una pasarela de pago externa que proporciona la empresa MercadoLibre para garantizar la seguridad de los pagos y la
 compatibilidad con otros clientes.
+
+Las tecnologias deben brindar Seguridad, Disponibilidad y Escalabilidad
 
 
 

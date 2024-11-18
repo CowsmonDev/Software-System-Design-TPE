@@ -1,23 +1,40 @@
-# {short title, representative of solved problem and found solution}
+# Implementación de microservicios para Estadísticas y incidencias
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
+Se estan implementando dos microservicios especializados en manejo de datos para devolver respuestas. Las tecnologias deben brindar isponibilidad, Escalabilidad, Exactitud y Rendimiento
 
 ## Considered Options
 
-* {title of option 1}
-* {title of option 2}
-* {title of option 3}
-* … <!-- numbers of options can vary -->
+* Táctica de Background Processing: Procesos en segundo plano para tareas intensivas, como cálculos de análisis o generación de informes pesados.
+
+* Táctica de Aggregation Layer: Implementa una capa interna que consolida datos de múltiples orígenes locales (p. ej., datos de pedidos, clientes y rutas) en estructuras listas para consulta.
+
+* Patrón Database per Service: Cada microservicio tiene su propia base de datos que organiza y administra exclusivamente.
+
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Decisión (ambos microservicios): Aggregation Layer y Database per Service
 
-<!-- This is an optional element. Feel free to remove. -->
+**Justificación:**
+
+**Simplicidad y claridad:**
+Centraliza la lógica de cómo se relacionan y combinan los datos. En lugar de replicar esta lógica en cada consulta, la capa actúa como punto único para acceder a datos ya preparados.
+
+**Flexibilidad:**
+Permite modificar cómo se combinan o transforman los datos sin afectar la estructura subyacente de almacenamiento. Esto facilita ajustes futuros en los informes o tableros.
+
+**Optimización para consultas:**
+Prepara estructuras de datos específicas para los informes más frecuentes, mejorando el tiempo de respuesta.
+
+**Base de Datos propia:** Tener su propia base permite optimizar las estructuras y consultas sin depender de otros servicios.
+
 ### Consequences
 
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-* … <!-- numbers of consequences can vary -->
+**Sincronización de datos:**
+Como Estadísticas probablemente depende de datos generados por otros servicios (Pedidos, Clientes, Rutas), será necesario implementar mecanismos de sincronización confiables (mensajería/eventos o APIs).
+
+**Mayor complejidad operativa:**
+Administrar múltiples bases de datos puede aumentar la carga operativa para el equipo de infraestructura.
+
