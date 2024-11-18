@@ -14,7 +14,7 @@ El sistema requiere dos microservicios principales: **Pedidos y Repartos con Rut
 
 ### Microservicio de Reparto y Rutas
 1. **Algoritmo de rutas estaticas:** Calculo previo de rutas y asignacion fija.
-2. **Algoritmo de rutas estaticas:** Optimizacion en tiempo real basada en el estado de los pedidos y camiones
+2. **Algoritmo de rutas dinamica:** Optimizacion en tiempo real basada en el estado de los pedidos y camiones
 3. **Algoritmo hibrido:** Precalculo con ajustes dinamicos
 
 ## Decision Outcome
