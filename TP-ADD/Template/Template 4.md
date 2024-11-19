@@ -2,7 +2,7 @@
 
 ## Context and Problem Statement
 
-Se estan implementando dos microservicios especializados en manejo de datos para devolver respuestas. Las tecnologias deben brindar isponibilidad, Escalabilidad, Exactitud y Rendimiento
+Se estan implementando dos microservicios especializados en manejo de datos para devolver respuestas como el estado de los pedidos o la situación en tiempo real de los camiones, y en el caso de las incidencias pueden notificar, por ejemplo, un camión averiado. Las tecnologias deben brindar Disponibilidad, Escalabilidad, Exactitud y  buen Rendimiento
 
 ## Considered Options
 
