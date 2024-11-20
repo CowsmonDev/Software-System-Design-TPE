@@ -27,3 +27,17 @@
 ## Restricciones
 - Las rutas deben construirse con los pedidos pendientes, sin reutilización de rutas.
 
+
+## Decisiones tomadas
+
+* [ADR08](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR08.md)
+* [ADR09](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR09.md)
+
+
+# Pedidos
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/pedidos_pipeline.jpg)
+
+# Reparto y Rutas
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/repartos_rutas_pipeline.jpg)
+
+

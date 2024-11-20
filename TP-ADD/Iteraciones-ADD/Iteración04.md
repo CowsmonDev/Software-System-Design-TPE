@@ -25,6 +25,22 @@
 4. **Tolerancia a Fallos**: Continuar operando ante fallos.
 5. **Seguridad**: Proteger información de incidencias.
 
-## Restricciones
-- (Pendiente de especificar).
+
+
+
+## Decisiones tomadas
+
+* [ADR10](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR10.md)
+* [ADR11](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR11.md)
+* [ADR12](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR12.md)
+* [ADR13](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR13.md)
+
+
+# Estadísticas
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/estadisticas_agregation_layer.jpg)
+
+
+# Incidencias
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/incidencias_agregation_layer.jpg)
+
 

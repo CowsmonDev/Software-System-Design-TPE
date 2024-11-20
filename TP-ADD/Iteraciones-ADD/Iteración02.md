@@ -28,3 +28,16 @@
 ## Restricciones
 - Ambos microservicios comparten la base de datos.
 
+
+## Decisiones tomadas
+
+* [ADR04](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR04.md)
+* [ADR05](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR05.md)
+* [ADR06](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR06.md)
+* [ADR07](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR07.md)
+
+
+
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/pago_clientes_db_flow.jpg)
+
+

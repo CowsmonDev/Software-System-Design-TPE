@@ -53,3 +53,8 @@ El nuevo sistema basado en microservicios va a poder implementar mejor nuevos se
 ## Conclusión
 
 En conclusión, la migración a una arquitectura basada en microservicios ha transformado el sistema en una solución modular, escalable y resiliente. Cada servicio ahora opera de manera autónoma, optimizando su desempeño y simplificando la implementación de nuevas funcionalidades. Además, se ha fortalecido la capacidad del sistema para adaptarse a cambios en el negocio, soportar mayores volúmenes de carga y mantener una alta disponibilidad. Aunque esta arquitectura introduce una mayor complejidad operativa, las ventajas en términos de flexibilidad, mantenimiento y alineación con los objetivos estratégicos garantizan que el sistema esté preparado para enfrentar los retos y oportunidades futuras de manera efectiva.
+
+
+
+
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/add-generic-view.jpg)

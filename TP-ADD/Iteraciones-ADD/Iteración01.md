@@ -62,3 +62,14 @@ Se utilizará una **fachada o API Gateway**, que ayuda a abstraer el monolito y 
 - **Separación de Datos:** Los datos deben almacenarse en bases de datos separadas por servicio (Clientes y Pedidos).
 
 
+## Decisiones tomadas
+
+* [ADR01](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR01.md)
+* [ADR02](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR02.md)
+* [ADR03](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/Template-ADRs/ADR03.md)
+
+
+
+![imagen](https://github.com/CowsmonDev/Software-System-Design-TPE/blob/main/TP-ADD/images/Microservicios%20ADD.jpg)
+
+
